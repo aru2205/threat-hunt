@@ -2,7 +2,7 @@
 
 **Course:** Introduction to Threat Hunting (AITU, 2026–2027)
 **Project topic:** Insider threat via trusted access - covered across two tracks in this project: **physical** (badge/ACS misuse) and **digital** (software supply-chain / developer-tooling misuse). Both tracks share the same underlying pattern - a legitimate, trusted credential or channel being abused - just in different environments, and both are carried through Weeks 2-4.
-**Deliverables covered:** OSINT data collection (Shodan/VirusTotal/Maltego-class tooling), data source mapping for analysis
+**Deliverables covered:** OSINT data collection, data source mapping for analysis
 
 ---
 
@@ -115,7 +115,7 @@ The visible fragment of `domains-detailed_20250207_20.csv` (Part 118/257) contai
 - Pellera Technologies, *Physical Security Risks Exposed: Real-World Penetration Testing Lessons*
 - StepSecurity / Cloud Security Alliance advisories on the May 2026 Nx Console / TanStack incident chain
 
-## 9. Sources
+## 8. Sources
 
 - Pellera Technologies, "Physical Security Risks Exposed: Real-World Penetration Testing Lessons"
 - StepSecurity, "Nx Console VS Code Extension Compromised" (May 18, 2026)
