@@ -69,9 +69,11 @@ Week 3 takes the three Week 2 case studies and turns them into structured, corre
 
 ---
 
-## Week 4 - Cyber Kill Chain (in progress)
+## Week 4 — Cyber Kill Chain
 
-Week 4 takes the same case studies through Lockheed Martin's Cyber Kill Chain model, mapping each stage to specific MITRE ATT&CK technique IDs - the next step in tracking one continuous threat, not starting a new one.
+Week 4 runs the same case studies through Lockheed Martin's Cyber Kill Chain (Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command & Control, Actions on Objectives), mapping each stage to MITRE ATT&CK technique IDs.
+
+The digital track (Nx Console/GitHub) maps cleanly onto ATT&CK at every stage (T1593, T1195.002, T1528, T1554, T1102, T1567, T1213). The physical track (badge cloning) doesn't: three of the seven stages have no direct Enterprise ATT&CK equivalent, since ATT&CK is built for software behavior, not physical access control. That gap is the reason Week 3's MISP model keeps physical indicators as their own category instead of forcing them into ATT&CK's vocabulary.
 
 ---
 
