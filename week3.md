@@ -1,9 +1,13 @@
 # Week 3: Data Processing and Exploitation
 
-**Course:** Introduction to Threat Hunting (AITU, 2026–2027)
-**Project topic:** Insider threat via trusted access, physical and digital tracks (see Week 1).
 
-This week takes the three case studies from Week 2 (badge cloning, the Nx Console / GitHub supply-chain breach, and the websfm.kz infrastructure exposure) and turns them into structured data that can be correlated.
+
+
+
+
+
+
+This week takes the three case studies from Week 2 and turns them into structured data that can be correlated.
 
 ## 1. Overview
 
@@ -24,6 +28,8 @@ MISP is normally used for network and file IOCs. Here I also use it for physical
 Event 1 comes from the badge-cloning case in Week 2 §3. Events 2 and 3 come from the Nx Console and websfm.kz cases in Week 2 §4–5.
 
 Timeline of the attack behind Event 2:
+<img width="1200" height="600" alt="week3_timeline" src="https://github.com/user-attachments/assets/98062b81-c867-4b5c-8276-8ae7b9be58eb" />
+
 
 ![Nx Console / GitHub supply-chain attack timeline](assets/week3_timeline.png)
 
@@ -39,6 +45,7 @@ Timeline of the attack behind Event 2:
 | OSINT / infrastructure | Exposed SPF/TXT records with wildcard includes (websfm.kz) | Email spoofing or domain hijacking vector |
 
 ![Indicators defined per category](assets/week3_indicator_categories.png)
+<img width="900" height="600" alt="week3_indicator_categories" src="https://github.com/user-attachments/assets/3fbc4c7a-5577-456f-b0ca-6db497f6fe72" />
 
 Three of the six indicators are physical/behavioral, so the physical track has as much detection logic behind it as the digital one.
 
@@ -83,6 +90,6 @@ One rule covers the offboarding-failure case in both tracks, because it doesn't 
 
 ## 6. Next Steps (Week 4)
 
-- Map each event in §2 to Cyber Kill Chain stages and cite the relevant MITRE ATT&CK technique IDs.
-- Extract concrete IOCs from the GHSA advisories referenced in Week 2 (GHSA-c9j4-9m59-847w, GHSA-g7cv-rxg3-hmpx) and add them as attributes on Event 2.
-- Build the baseline exception list from §4.1 so the KQL rule is deployable and not only illustrative.
+ Map each event in §2 to Cyber Kill Chain stages and cite the relevant MITRE ATT&CK technique IDs.
+Extract concrete IOCs from the GHSA advisories referenced in Week 2 (GHSA-c9j4-9m59-847w, GHSA-g7cv-rxg3-hmpx) and add them as attributes on Event 2.
+Build the baseline exception list from §4.1 so the KQL rule is deployable and not only illustrative.
