@@ -69,7 +69,7 @@ Week 3 takes the three Week 2 case studies and turns them into structured, corre
 
 ---
 
-## Week 4 — Cyber Kill Chain
+## Week 4 - Cyber Kill Chain
 
 Week 4 runs the same case studies through Lockheed Martin's Cyber Kill Chain (Reconnaissance, Weaponization, Delivery, Exploitation, Installation, Command & Control, Actions on Objectives), mapping each stage to MITRE ATT&CK technique IDs.
 
