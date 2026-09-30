@@ -52,13 +52,13 @@ These five categories apply equally to both tracks: e.g., a "careless worker" ca
 
 ## 3. Case Studies
 
-### Physical track: USB Killer (College of Saint Rose, 2019)
+### Physical track: USB Killer (College of Saint Rose, 2019), general example
 
-A former student used a malicious USB device ("USB killer") to physically destroy 66 workstations and monitors, causing over $50,000 in equipment damage. He faced up to 10 years in prison. This demonstrates that physical access to endpoints is itself an attack surface, not just a data-exfiltration risk.
+A former student used a malicious USB device ("USB killer") to physically destroy 66 workstations and monitors, causing over $50,000 in damage and facing up to 10 years in prison. Shows that physical access to endpoints is itself an attack surface. This is a general example, not the project's own case study.
 
-### Digital track (preview - expanded in Weeks 2–3)
+### Both tracks, developed starting Week 2
 
-The **Nx Console / GitHub supply-chain breach (May 2026)** and the **`websfm.kz` infrastructure exposure** are this project's digital-track case studies; full timelines, IOCs, and analysis are developed starting Week 2 once OSINT collection was performed.
+The physical track's own case study is badge cloning through social-media OSINT (employee badge photos harvested from LinkedIn/Facebook). The digital track's case studies are the Nx Console/GitHub breach and the `websfm.kz` exposure. All three are built out starting Week 2.
 
 ---
 
